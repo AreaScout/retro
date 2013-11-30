@@ -171,7 +171,7 @@ pre, code {
 }
 
 pre {
-  width: 100%;
+  width: 97%;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   overflow: auto;
@@ -267,13 +267,17 @@ Full-Width Styles
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: rgb(37, 37, 37);
 }
 
 #forkme_banner {
   display: block;
   position: absolute;
-  top:0;
-  right: 10px;
+  top:1px;
+  right: 0px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
@@ -295,6 +299,7 @@ Full-Width Styles
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+  border: none;
 }
 
 #project_title {
